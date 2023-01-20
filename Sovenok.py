@@ -4,7 +4,6 @@ import Token_sova
 import time
 
 bot = telebot.TeleBot(Token_sova.Token_sova)
-# адрес бота: t.me/Sovenok_2012_bot
 #'message.from_user.id' or 'message.chat.id' ==?
 
 @bot.message_handler(commands=['start', 'help', 'Help'])
