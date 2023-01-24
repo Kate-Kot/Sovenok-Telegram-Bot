@@ -75,5 +75,5 @@ while True:
     try:
         bot.polling(none_stop=True, interval=0)
     except Exception as err:
-        time.sleep(0.1)
+        time.sleep(0.2)
     
